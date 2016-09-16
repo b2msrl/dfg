@@ -19,10 +19,10 @@ $versions = GitVersionCollection::create($dir)
 
 return new Sami($iterator,array(
     'theme'                => 'default',
-    'title'                => '@@@package_name API',
+    'title'                => 'dfg API',
     'versions'             => $versions,
-    'build_dir'            => '@@@doc_destination/build/%version%',
-    'cache_dir'            => '@@@doc_destination/cache/%version%',
+    'build_dir'            => 'Y:/Public/laravel-packages/www/doc/b2msrl/dfg/build/%version%',
+    'cache_dir'            => 'Y:/Public/laravel-packages/www/doc/b2msrl/dfg/cache/%version%',
     'default_opened_level' => 2,
 ));
 
